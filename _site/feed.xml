@@ -1,0 +1,71 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Tesfamariam T.</title>
+  <subtitle>Some Doc, Blog and Profile for My Tech Journey.</subtitle>
+  <updated>2023-01-17T11:12:18+03:00</updated>
+  <author>
+    <name>Tesfamariam Teshome</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
+  <rights> © 2023 Tesfamariam Teshome </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Coding Principles</title>
+    <link href="http://localhost:4000/posts/codingprinciples/" rel="alternate" type="text/html" title="Coding Principles" />
+    <published>2023-01-17T09:56:00+03:00</published>
+  
+    <updated>2023-01-17T09:56:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/codingprinciples/</id>
+    <content src="http://localhost:4000/posts/codingprinciples/" />
+    <author>
+      <name>Tesfamariam Teshome</name>
+    </author>
+
+  
+    
+    <category term="Software" />
+    
+    <category term="DesignPattern" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Software Design Principles
+Software Design principles are a set of guidelines that helps developers to make a good system design.
+
+One of the most important principle is SOLID principle.
+
+The Key software design principles are as:
+
+SOLID
+It is combination of five basic designing principles.
+
+Single Responsibility Principle (SRP)
+
+This principle states that there should never be more than one re...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
