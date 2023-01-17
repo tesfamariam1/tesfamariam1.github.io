@@ -1,7 +1,7 @@
 ---
 title: Coding Principles
 date: 2023-01-17 9:56:00 +03:00
-categories: [Software, DesignPattern]
+categories: [Software Development, Design Pattern]
 tags: [solid,kiss,dry]
 ---
 # Software Design Principles
