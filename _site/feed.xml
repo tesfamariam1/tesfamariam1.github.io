@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tesfamariam T.</title>
   <subtitle>Some Doc, Blog and Profile for My Tech Journey.</subtitle>
-  <updated>2023-01-17T12:36:49+03:00</updated>
+  <updated>2023-01-21T11:34:26+03:00</updated>
   <author>
     <name>Tesfamariam Teshome</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,58 @@
 
   
   <entry>
+    <title>Laravel Best Practices</title>
+    <link href="http://localhost:4000/posts/bestpractices/" rel="alternate" type="text/html" title="Laravel Best Practices" />
+    <published>2023-01-21T10:42:00+03:00</published>
+  
+    <updated>2023-01-21T10:42:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/bestpractices/</id>
+    <content src="http://localhost:4000/posts/bestpractices/" />
+    <author>
+      <name>Tesfamariam Teshome</name>
+    </author>
+
+  
+    
+    <category term="Laravel Developer" />
+    
+    <category term="Web Development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Single responsibility principle
+
+  A class and a method should have only one responsibility.
+
+
+Bad:
+public function getFullNameAttribute()
+{
+    if (auth()-&amp;gt;user() &amp;amp;&amp;amp; auth()-&amp;gt;user()-&amp;gt;hasRole('client') &amp;amp;&amp;amp; auth()-&amp;gt;user()-&amp;gt;isVerified()) {
+        return 'Mr. ' . $this-&amp;gt;first_name . ' ' . $this-&amp;gt;middle_name . ' ' . $this-&amp;gt;last_name;
+    } else {
+        retur...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Coding Principles</title>
     <link href="http://localhost:4000/posts/codingprinciples/" rel="alternate" type="text/html" title="Coding Principles" />
     <published>2023-01-17T09:56:00+03:00</published>
   
-    <updated>2023-01-17T09:56:00+03:00</updated>
+    <updated>2023-01-17T12:37:25+03:00</updated>
   
     <id>http://localhost:4000/posts/codingprinciples/</id>
     <content src="http://localhost:4000/posts/codingprinciples/" />
