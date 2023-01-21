@@ -31,3 +31,12 @@ Skill I am Good At
  - Git
  - Github
  - Trello
+
+
+<!-- ## Here's what I have done in past
+
+### ***Gundo-Fashion***
+![Gundo Fashion](https://www.upwork.com/att/download/portfolio/persons/uid/1489476286585438208/profile/projects/files/9dc6218b-ba64-4375-8ddf-30fd544f9834)
+
+### ***Website Status Checker***
+![Website Status Checker](https://www.upwork.com/att/download/portfolio/persons/uid/1489476286585438208/profile/projects/files/9dc6218b-ba64-4375-8ddf-30fd544f9834) -->

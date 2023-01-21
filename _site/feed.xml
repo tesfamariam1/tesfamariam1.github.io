@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tesfamariam T.</title>
   <subtitle>Some Doc, Blog and Profile for My Tech Journey.</subtitle>
-  <updated>2023-01-21T11:34:26+03:00</updated>
+  <updated>2023-01-22T00:33:50+03:00</updated>
   <author>
     <name>Tesfamariam Teshome</name>
     <uri>http://localhost:4000/</uri>
@@ -60,6 +60,78 @@ public function getFullNameAttribute()
         return 'Mr. ' . $this-&amp;gt;first_name . ' ' . $this-&amp;gt;middle_name . ' ' . $this-&amp;gt;last_name;
     } else {
         retur...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Check Required Node Version</title>
+    <link href="http://localhost:4000/posts/nodeversion/" rel="alternate" type="text/html" title="Check Required Node Version" />
+    <published>2023-01-21T03:00:00+03:00</published>
+  
+    <updated>2023-01-21T03:00:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/nodeversion/</id>
+    <content src="http://localhost:4000/posts/nodeversion/" />
+    <author>
+      <name>Tesfamariam Teshome</name>
+    </author>
+
+  
+    
+    <category term="Node Version" />
+    
+    <category term="Node Sass" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Error/node_modules/node-sass: Command failed
+
+Step 1
+
+  Check your node version based on node-sass version in package.json
+
+
+
+  
+    
+      NodeJs
+      Supported node-sass version
+      Node Module
+    
+  
+  
+    
+      Node 16
+      6.0+
+      93
+    
+    
+      Node 15
+      5.0+
+      88
+    
+    
+      Node 14
+      4.14+
+      83
+    
+    
+      Node 13
+      4.13+, &amp;lt;5.0
+      79
+    
+...
     </summary>
   
 
