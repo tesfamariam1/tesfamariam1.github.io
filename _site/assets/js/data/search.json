@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Best of Laravel Topics and Challenging tasks",
+    "url": "/posts/laraveltopics/",
+    "categories": "Filtering, scraping, Laravel",
+    "tags": "laravel, filter, pagination, challenging",
+    "date": "2023-01-27 03:00:00 +0300",
+    
+
+
+
+
+
+    
+    "snippet": "Filter in Laravel",
+    "content": "Filter in Laravel"
+  },
+  
+  {
     "title": "Laravel Best Practices",
     "url": "/posts/bestpractices/",
     "categories": "Laravel Developer, Web Development",

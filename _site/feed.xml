@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tesfamariam T.</title>
   <subtitle>Some Doc, Blog and Profile for My Tech Journey.</subtitle>
-  <updated>2023-01-22T00:33:50+03:00</updated>
+  <updated>2023-01-27T15:47:38+03:00</updated>
   <author>
     <name>Tesfamariam Teshome</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,45 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Best of Laravel Topics and Challenging tasks</title>
+    <link href="http://localhost:4000/posts/laraveltopics/" rel="alternate" type="text/html" title="Best of Laravel Topics and Challenging tasks" />
+    <published>2023-01-27T03:00:00+03:00</published>
+  
+    <updated>2023-01-27T03:00:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/laraveltopics/</id>
+    <content src="http://localhost:4000/posts/laraveltopics/" />
+    <author>
+      <name>Tesfamariam Teshome</name>
+    </author>
+
+  
+    
+    <category term="Filtering" />
+    
+    <category term="scraping" />
+    
+    <category term="Laravel" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Filter in Laravel
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
