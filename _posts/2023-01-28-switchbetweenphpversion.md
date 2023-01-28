@@ -7,7 +7,7 @@ tags: [phpversion,mac,brew]
 
 ## Switch between php versions
 ```
-brew unlink <current-phpVersion>
+brew unlink php@<current-phpVersion>
 
-brew link <desired-phpVersion>
+brew link php@<desired-phpVersion>
 ```
