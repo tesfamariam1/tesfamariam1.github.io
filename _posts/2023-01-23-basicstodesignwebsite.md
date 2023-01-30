@@ -40,4 +40,4 @@ Now that you know what you want to accomplish, it's time to turn those goals int
 # Conclusion
 As you can see, the simple idea "I want to make a website" generates a long to-do list, which only grows longer as you think about it. Soon it may look overwhelming, but don't panic. You don't need to answer all the questions and you don't need to do everything on your list. What matters is to have a vision of what you want and how to get there. Once you have that clear vision, you need to decide how and when to do it. Break down big tasks into small, actionable steps. And those small steps will add up to great achievements.
 
-[Main Source](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding#how_could_a_website_bring_me_to_my_goals)
+[Reference](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding#how_could_a_website_bring_me_to_my_goals)
