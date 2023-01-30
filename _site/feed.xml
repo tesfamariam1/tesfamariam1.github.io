@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Tesfamariam T.</title>
   <subtitle>Some Doc, Blog and Profile for My Tech Journey.</subtitle>
-  <updated>2023-01-27T15:47:38+03:00</updated>
+  <updated>2023-01-30T14:19:30+03:00</updated>
   <author>
     <name>Tesfamariam Teshome</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,49 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Switch between php version in mac</title>
+    <link href="http://localhost:4000/posts/switchbetweenphpversion/" rel="alternate" type="text/html" title="Switch between php version in mac" />
+    <published>2023-01-28T03:00:00+03:00</published>
+  
+    <updated>2023-01-28T23:24:05+03:00</updated>
+  
+    <id>http://localhost:4000/posts/switchbetweenphpversion/</id>
+    <content src="http://localhost:4000/posts/switchbetweenphpversion/" />
+    <author>
+      <name>Tesfamariam Teshome</name>
+    </author>
+
+  
+    
+    <category term="PHP Version" />
+    
+    <category term="Mac" />
+    
+    <category term="Brew" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Switch between php versions
+brew unlink php@&amp;lt;current-phpVersion&amp;gt;
+
+brew link php@&amp;lt;desired-phpVersion&amp;gt;
+
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -59,23 +102,23 @@
 
   
   <entry>
-    <title>Laravel Best Practices</title>
-    <link href="http://localhost:4000/posts/bestpractices/" rel="alternate" type="text/html" title="Laravel Best Practices" />
-    <published>2023-01-21T10:42:00+03:00</published>
+    <title>What is Domain Name?</title>
+    <link href="http://localhost:4000/posts/domainname/" rel="alternate" type="text/html" title="What is Domain Name?" />
+    <published>2023-01-26T03:00:00+03:00</published>
   
-    <updated>2023-01-21T10:42:00+03:00</updated>
+    <updated>2023-01-26T03:00:00+03:00</updated>
   
-    <id>http://localhost:4000/posts/bestpractices/</id>
-    <content src="http://localhost:4000/posts/bestpractices/" />
+    <id>http://localhost:4000/posts/domainname/</id>
+    <content src="http://localhost:4000/posts/domainname/" />
     <author>
       <name>Tesfamariam Teshome</name>
     </author>
 
   
     
-    <category term="Laravel Developer" />
+    <category term="Web" />
     
-    <category term="Web Development" />
+    <category term="Domain Name" />
     
   
 
@@ -87,18 +130,12 @@
 
 
 
-      Single responsibility principle
+      Summary
+Domain names are a key part of the Internet infrastructure. They provide a human-readable address for any web server available on the Internet.
 
-  A class and a method should have only one responsibility.
+Any Internet-connected computer can be reached through a public IP address, either an IPv4 address (e.g. 173.194.121.32) or an IPv6 address (e.g., 2027:0da8:8b73:0000:0000:8a2e:0370:1337).
 
-
-Bad:
-public function getFullNameAttribute()
-{
-    if (auth()-&amp;gt;user() &amp;amp;&amp;amp; auth()-&amp;gt;user()-&amp;gt;hasRole('client') &amp;amp;&amp;amp; auth()-&amp;gt;user()-&amp;gt;isVerified()) {
-        return 'Mr. ' . $this-&amp;gt;first_name . ' ' . $this-&amp;gt;middle_name . ' ' . $this-&amp;gt;last_name;
-    } else {
-        retur...
+Computers can handle such addresses easily, but people...
     </summary>
   
 
@@ -106,23 +143,29 @@ public function getFullNameAttribute()
 
   
   <entry>
-    <title>Check Required Node Version</title>
-    <link href="http://localhost:4000/posts/nodeversion/" rel="alternate" type="text/html" title="Check Required Node Version" />
-    <published>2023-01-21T03:00:00+03:00</published>
+    <title>How The Web Works?</title>
+    <link href="http://localhost:4000/posts/web/" rel="alternate" type="text/html" title="How The Web Works?" />
+    <published>2023-01-25T03:00:00+03:00</published>
   
-    <updated>2023-01-21T03:00:00+03:00</updated>
+    <updated>2023-01-25T03:00:00+03:00</updated>
   
-    <id>http://localhost:4000/posts/nodeversion/</id>
-    <content src="http://localhost:4000/posts/nodeversion/" />
+    <id>http://localhost:4000/posts/web/</id>
+    <content src="http://localhost:4000/posts/web/" />
     <author>
       <name>Tesfamariam Teshome</name>
     </author>
 
   
     
-    <category term="Node Version" />
+    <category term="Web" />
     
-    <category term="Node Sass" />
+    <category term="Web Page" />
+    
+    <category term="Website" />
+    
+    <category term="Web Server" />
+    
+    <category term="Search Engine" />
     
   
 
@@ -134,43 +177,12 @@ public function getFullNameAttribute()
 
 
 
-      Error/node_modules/node-sass: Command failed
+      How The Web Works?
+How the web works provides a simplified view of what happens when you view a webpage in a web browser on your computer or phone.
 
-Step 1
-
-  Check your node version based on node-sass version in package.json
-
-
-
-  
-    
-      NodeJs
-      Supported node-sass version
-      Node Module
-    
-  
-  
-    
-      Node 16
-      6.0+
-      93
-    
-    
-      Node 15
-      5.0+
-      88
-    
-    
-      Node 14
-      4.14+
-      83
-    
-    
-      Node 13
-      4.13+, &amp;lt;5.0
-      79
-    
-...
+This theory is not essential to writing web code in the short term, but before long you’ll really start to benefit from understanding what’s happening in the background.
+Clients and servers
+Computers connected to the internet are called clients and...
     </summary>
   
 
@@ -178,23 +190,21 @@ Step 1
 
   
   <entry>
-    <title>Coding Principles</title>
-    <link href="http://localhost:4000/posts/codingprinciples/" rel="alternate" type="text/html" title="Coding Principles" />
-    <published>2023-01-17T09:56:00+03:00</published>
+    <title>How Does the Internet Work?</title>
+    <link href="http://localhost:4000/posts/internet/" rel="alternate" type="text/html" title="How Does the Internet Work?" />
+    <published>2023-01-24T03:00:00+03:00</published>
   
-    <updated>2023-01-17T12:37:25+03:00</updated>
+    <updated>2023-01-30T12:28:53+03:00</updated>
   
-    <id>http://localhost:4000/posts/codingprinciples/</id>
-    <content src="http://localhost:4000/posts/codingprinciples/" />
+    <id>http://localhost:4000/posts/internet/</id>
+    <content src="http://localhost:4000/posts/internet/" />
     <author>
       <name>Tesfamariam Teshome</name>
     </author>
 
   
     
-    <category term="Software Development" />
-    
-    <category term="Design Pattern" />
+    <category term="Internet" />
     
   
 
@@ -206,19 +216,10 @@ Step 1
 
 
 
-      Software Design Principles
-Software Design principles are a set of guidelines that helps developers to make a good system design.
-
-One of the most important principle is SOLID principle.
-
-The Key software design principles are as:
-
-SOLID
-It is combination of five basic designing principles.
-
-Single Responsibility Principle (SRP)
-
-This principle states that there should never be more than one re...
+      Summary
+The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its most basic, the Internet is a large network of computers which communicate all together.
+History of Internet in Short
+It began in the 1960s as a US-army-funded research project, then evolved into a public infrastructure in the 1980s with the support of many public universities and p...
     </summary>
   
 
